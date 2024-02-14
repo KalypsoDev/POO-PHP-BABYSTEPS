@@ -1,5 +1,7 @@
 <?php
-class PiezaLego
+
+require "AccionableInterface.php";
+class PiezaLego implements AccionableInterface
 {
     public $cabeza;
     public $piernas;
@@ -48,5 +50,11 @@ class PiezaLego
         ropa: {$this->ropa} \n
         color de piel: {$this->color_piel} \n
         ";
+    }
+
+    //Aquí sí puedo desarrollar este método
+    public function realizar_accion()
+    {
+        echo "Tu figura LEGO está lista para la acción";
     }
 }

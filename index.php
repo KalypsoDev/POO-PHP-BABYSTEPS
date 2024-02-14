@@ -21,3 +21,4 @@ $deadpool->mostrar_figura();
 
 $deadpool->set_atributos();
 $deadpool->mostrar_figura();
+$deadpool->realizar_accion();
