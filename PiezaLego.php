@@ -25,7 +25,7 @@ class PiezaLego
     public function set_ropa($nueva_ropa)
     {
         $this->ropa = $nueva_ropa;
-        echo "El color de la ropa de tu figura ha sido modificada a {$this->ropa}";
+        // echo "El color de la ropa de tu figura ha sido modificada a {$this->ropa}";
     }
 
     public function get_color_piel()
@@ -36,7 +36,7 @@ class PiezaLego
     public function set_color_piel($nuevo_color_piel)
     {
         $this->color_piel = $nuevo_color_piel;
-        echo "El color de la piel de tu figura ha sido modificada a {$this->color_piel}";
+        // echo "El color de la piel de tu figura ha sido modificada a {$this->color_piel}";
     }
 
     public function mostrar_figura()
